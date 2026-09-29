@@ -1,0 +1,10 @@
+**/node_modules
+**/.next
+**/dist
+.data
+.env
+.git
+assets
+tests
+docs
+*.log

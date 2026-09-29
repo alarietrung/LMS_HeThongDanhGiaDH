@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bản sao LMS MIT University chạy cục bộ, phục vụ tham khảo và học tập.">
+  <title>LMS MITUNI — Bản local</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fidelity.css?v=3">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <button class="icon-button mobile-only" id="mobileMenu" aria-label="Mở menu">☰</button>
+      <a class="brand" href="#/dashboard" aria-label="MIT University">
+        <img src="assets/mituni-logo.png" alt="MIT University">
+      </a>
+      <button class="sidebar-toggle desktop-only" id="sidebarToggle" aria-label="Thu gọn menu">☰</button>
+      <div class="topbar-spacer"></div>
+      <button class="icon-button notification-button" id="notificationsButton" aria-label="Thông báo">
+        <span>♧</span><b>3</b>
+      </button>
+      <button class="icon-button" id="messagesButton" aria-label="Tin nhắn">▢</button>
+      <div class="topbar-divider"></div>
+      <button class="profile-button" id="profileButton" aria-label="Tài khoản">
+        <span class="avatar">TN</span>
+        <span class="profile-copy desktop-only"><strong>Trung</strong><small>Sinh viên</small></span>
+        <span>⌄</span>
+      </button>
+      <button class="icon-button" id="themeToggle" aria-label="Đổi giao diện sáng tối">☼</button>
+    </header>
+
+    <aside class="sidebar" id="sidebar" aria-label="Điều hướng chính">
+      <nav id="mainNav"></nav>
+      <div class="sidebar-footer">
+        <div class="mini-profile"><span class="avatar">TN</span><span><strong>Trung Nguyen Nam</strong><small>Đã đăng nhập — bản local</small></span></div>
+      </div>
+    </aside>
+
+    <main class="main" id="mainContent" tabindex="-1"></main>
+    <button class="course-index-tab" id="courseIndexTab" aria-label="Mở chỉ mục khóa học">☷</button>
+    <button class="floating-menu" id="floatingMenu" aria-label="Mở menu nhanh">☰</button>
+
+    <div class="backdrop" id="backdrop"></div>
+    <aside class="drawer" id="drawer" aria-live="polite">
+      <div class="drawer-head"><h2 id="drawerTitle">Thông báo</h2><button class="icon-button" id="drawerClose" aria-label="Đóng">×</button></div>
+      <div id="drawerContent"></div>
+    </aside>
+
+    <div class="modal-backdrop" id="modalBackdrop">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-head"><h2 id="modalTitle"></h2><button class="icon-button" id="modalClose" aria-label="Đóng">×</button></div>
+        <div id="modalBody"></div>
+      </section>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+  <script src="data.js?v=3"></script>
+  <script src="catalog.js"></script>
+  <script src="app.js?v=4"></script>
+</body>
+</html>
