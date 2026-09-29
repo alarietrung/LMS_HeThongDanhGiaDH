@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="84" viewBox="0 0 740 84" role="img" aria-labelledby="title desc">
+  <title id="title">MITUNI LMS technology stack</title>
+  <desc id="desc">Languages: TypeScript, JavaScript, SQL, HTML, CSS. Frameworks and infrastructure: Next.js, React, NestJS, Node.js, PostgreSQL, Redis. Static technology labels, not CI status indicators.</desc>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">
+  <g transform="translate(71 5)"><rect width="132" height="30" rx="5" fill="#3178c6"/><text x="66" y="20" text-anchor="middle" fill="#ffffff">TypeScript</text></g>
+  <g transform="translate(213 5)"><rect width="132" height="30" rx="5" fill="#ead448"/><text x="66" y="20" text-anchor="middle" fill="#202329">JavaScript</text></g>
+  <g transform="translate(355 5)"><rect width="94" height="30" rx="5" fill="#336791"/><text x="47" y="20" text-anchor="middle" fill="#ffffff">SQL</text></g>
+  <g transform="translate(459 5)"><rect width="104" height="30" rx="5" fill="#b83d21"/><text x="52" y="20" text-anchor="middle" fill="#ffffff">HTML</text></g>
+  <g transform="translate(573 5)"><rect width="96" height="30" rx="5" fill="#663399"/><text x="48" y="20" text-anchor="middle" fill="#ffffff">CSS</text></g>
+  <g transform="translate(10 47)"><rect width="111" height="30" rx="5" fill="#202329"/><text x="55.5" y="20" text-anchor="middle" fill="#ffffff">Next.js</text></g>
+  <g transform="translate(131 47)"><rect width="100" height="30" rx="5" fill="#163a47"/><text x="50" y="20" text-anchor="middle" fill="#ffffff">React</text></g>
+  <g transform="translate(241 47)"><rect width="109" height="30" rx="5" fill="#bc244b"/><text x="54.5" y="20" text-anchor="middle" fill="#ffffff">NestJS</text></g>
+  <g transform="translate(360 47)"><rect width="114" height="30" rx="5" fill="#356b31"/><text x="57" y="20" text-anchor="middle" fill="#ffffff">Node.js</text></g>
+  <g transform="translate(484 47)"><rect width="139" height="30" rx="5" fill="#336791"/><text x="69.5" y="20" text-anchor="middle" fill="#ffffff">PostgreSQL</text></g>
+  <g transform="translate(633 47)"><rect width="97" height="30" rx="5" fill="#a92923"/><text x="48.5" y="20" text-anchor="middle" fill="#ffffff">Redis</text></g>
+  </g>
+</svg>
